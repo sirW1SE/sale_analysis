@@ -49,7 +49,7 @@
     />
 
     <record model="ir.ui.view" id="sale_order_analysis_line_pivot_view">
-        <field name="name">sale.order.line.view.pivot</field>
+        <field name="name">Sale Order Analysis Pivot</field>
         <field name="model">sale.order.line</field>
         <field name="arch" type="xml">
             <pivot string="Sales Order Line Analysis" display_quantity="1" sample="1">
@@ -63,7 +63,7 @@
     </record>
 
     <record model="ir.ui.view" id="sale_order_analysis_graph_view">
-        <field name="name">sale.order.line.view.graph</field>
+        <field name="name">Sale Order Analysis Graph</field>
         <field name="model">sale.order.line</field>
         <field name="arch" type="xml">
             <graph string="Sales Order Line Graph" type="line" sample="1">
